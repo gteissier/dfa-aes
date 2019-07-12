@@ -4,6 +4,9 @@
 
 #ifndef DFA_H
 #define DFA_H
+#ifdef __MACH__
+#include <sys/cdefs.h>
+#endif /* __MACH__ */
 #include <algorithm>
 #include <array>
 #include <climits>
